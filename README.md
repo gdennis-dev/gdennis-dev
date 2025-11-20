@@ -8,7 +8,7 @@
 
 ## 🛠️ Skills & Technologies
 
-
+#### Programming Languages
 <div>
   <img src="https://img.shields.io/badge/JavaScript/TypeScript-Advanced-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript/TypeScript" />
   <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/C++-Intermediate-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
 </div>
 
-
+#### Frontend
 <div>
   <img src="https://img.shields.io/badge/React-Advanced-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/Vue.js-Intermediate-4FC08D?style=flat-square&logo=vue.js&logoColor=white" alt="Vue.js" />
@@ -26,7 +26,7 @@
   <img src="https://img.shields.io/badge/Sass/SCSS-Intermediate-CC6699?style=flat-square&logo=sass&logoColor=white" alt="Sass/SCSS" />
 </div>
 
-
+#### Backend
 <div>
   <img src="https://img.shields.io/badge/Node.js-Advanced-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express.js-Advanced-000000?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
@@ -36,7 +36,7 @@
   <img src="https://img.shields.io/badge/GraphQL-Intermediate-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL" />
 </div>
 
-
+#### Database
 <div>
   <img src="https://img.shields.io/badge/PostgreSQL-Advanced-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/MongoDB-Advanced-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
@@ -44,7 +44,7 @@
   <img src="https://img.shields.io/badge/Redis-Intermediate-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
 </div>
 
-
+#### DevOps
 <div>
   <img src="https://img.shields.io/badge/Docker-Intermediate-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Kubernetes-Beginner-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
@@ -54,7 +54,7 @@
   <img src="https://img.shields.io/badge/Linux-Intermediate-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
 </div>
 
-
+#### Others
 <div>
   <img src="https://img.shields.io/badge/Agile/Scrum-Advanced-009639?style=flat-square&logo=scrum&logoColor=white" alt="Agile/Scrum" />
   <img src="https://img.shields.io/badge/Microservices-Intermediate-FF6B6B?style=flat-square&logo=microservices&logoColor=white" alt="Microservices" />
