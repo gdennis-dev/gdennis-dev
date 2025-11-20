@@ -2,11 +2,11 @@
   <div style="background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
 
 <div align="center">
-  <h1>Hi there, I'm denis g 👋</h1>
+  <h1>Hi there, I'm Denis👋</h1>
   <p>Passionate Developer | Problem Solver | Tech Enthusiast</p>
 </div>
 
-## 🛠️ Skills & Technologies
+## Skills
 
 <div>
   <img src="https://img.shields.io/badge/JavaScript/TypeScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript/TypeScript" />
