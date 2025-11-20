@@ -67,87 +67,21 @@
 
 ## 🚀 Featured Projects
 
-<style>
-@keyframes fanRotate1 {
-  0% { transform: rotate(-50deg) translateX(-200px) rotate(50deg); z-index: 1; opacity: 0.4; filter: blur(2px); }
-  20% { transform: rotate(-30deg) translateX(-120px) rotate(30deg); z-index: 2; opacity: 0.6; filter: blur(1px); }
-  40% { transform: rotate(-15deg) translateX(-60px) rotate(15deg); z-index: 3; opacity: 0.75; filter: blur(0.5px); }
-  60% { transform: rotate(0deg) translateX(0px) rotate(0deg); z-index: 5; opacity: 1; filter: blur(0px); }
-  80% { transform: rotate(15deg) translateX(60px) rotate(-15deg); z-index: 3; opacity: 0.75; filter: blur(0.5px); }
-  100% { transform: rotate(30deg) translateX(120px) rotate(-30deg); z-index: 2; opacity: 0.6; filter: blur(1px); }
-}
+<div style="position: relative; width: 100%; height: 500px; margin: 40px 0; overflow: visible; display: flex; justify-content: center; align-items: center;">
 
-@keyframes fanRotate2 {
-  0% { transform: rotate(-30deg) translateX(-120px) rotate(30deg); z-index: 2; opacity: 0.6; filter: blur(1px); }
-  20% { transform: rotate(-15deg) translateX(-60px) rotate(15deg); z-index: 3; opacity: 0.75; filter: blur(0.5px); }
-  40% { transform: rotate(0deg) translateX(0px) rotate(0deg); z-index: 5; opacity: 1; filter: blur(0px); }
-  60% { transform: rotate(15deg) translateX(60px) rotate(-15deg); z-index: 3; opacity: 0.75; filter: blur(0.5px); }
-  80% { transform: rotate(30deg) translateX(120px) rotate(-30deg); z-index: 2; opacity: 0.6; filter: blur(1px); }
-  100% { transform: rotate(45deg) translateX(180px) rotate(-45deg); z-index: 1; opacity: 0.4; filter: blur(2px); }
-}
-
-@keyframes fanRotate3 {
-  0% { transform: rotate(-15deg) translateX(-60px) rotate(15deg); z-index: 3; opacity: 0.75; filter: blur(0.5px); }
-  20% { transform: rotate(0deg) translateX(0px) rotate(0deg); z-index: 5; opacity: 1; filter: blur(0px); }
-  40% { transform: rotate(15deg) translateX(60px) rotate(-15deg); z-index: 3; opacity: 0.75; filter: blur(0.5px); }
-  60% { transform: rotate(30deg) translateX(120px) rotate(-30deg); z-index: 2; opacity: 0.6; filter: blur(1px); }
-  80% { transform: rotate(45deg) translateX(180px) rotate(-45deg); z-index: 1; opacity: 0.4; filter: blur(2px); }
-  100% { transform: rotate(60deg) translateX(240px) rotate(-60deg); z-index: 1; opacity: 0.3; filter: blur(3px); }
-}
-
-@keyframes fanRotate4 {
-  0% { transform: rotate(0deg) translateX(0px) rotate(0deg); z-index: 5; opacity: 1; filter: blur(0px); }
-  20% { transform: rotate(15deg) translateX(60px) rotate(-15deg); z-index: 3; opacity: 0.75; filter: blur(0.5px); }
-  40% { transform: rotate(30deg) translateX(120px) rotate(-30deg); z-index: 2; opacity: 0.6; filter: blur(1px); }
-  60% { transform: rotate(45deg) translateX(180px) rotate(-45deg); z-index: 1; opacity: 0.4; filter: blur(2px); }
-  80% { transform: rotate(60deg) translateX(240px) rotate(-60deg); z-index: 1; opacity: 0.3; filter: blur(3px); }
-  100% { transform: rotate(75deg) translateX(300px) rotate(-75deg); z-index: 1; opacity: 0.2; filter: blur(4px); }
-}
-
-.fan-container {
-  position: relative;
-  width: 100%;
-  height: 550px;
-  margin: 50px 0;
-  overflow: visible;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
-  perspective: 1000px;
-}
-
-.fan-card {
-  position: absolute;
-  width: 300px;
-  transform-origin: center bottom;
-  animation-duration: 16s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  transition: all 0.3s ease;
-}
-
-.fan-card1 { animation-name: fanRotate1; }
-.fan-card2 { animation-name: fanRotate2; }
-.fan-card3 { animation-name: fanRotate3; }
-.fan-card4 { animation-name: fanRotate4; }
-</style>
-
-<div class="fan-container">
-  
-  <!-- Card 1: E-Commerce Platform -->
-  <div class="fan-card fan-card1">
-    <div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 15px; box-shadow: 0 15px 35px rgba(102, 126, 234, 0.4), 0 5px 15px rgba(0, 0, 0, 0.3); transform: rotate(0deg);">
-      <img src="https://via.placeholder.com/400x250/4A90E2/FFFFFF?text=E-Commerce+Platform" alt="E-Commerce Platform" width="100%" style="border-radius: 10px; margin-bottom: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"/>
-      <h3 style="color: white; margin: 12px 0 8px 0; font-size: 20px;">E-Commerce Platform</h3>
-      <p style="color: white; margin: 6px 0; font-size: 14px;"><strong>Full-stack e-commerce solution</strong></p>
-      <p style="color: rgba(255,255,255,0.9); margin: 6px 0; font-size: 12px;">Built with React, Node.js, and PostgreSQL</p>
-      <a href="https://github.com/yourusername/project1" style="color: white; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 12px; padding: 8px 16px; background: rgba(255,255,255,0.25); border-radius: 6px;">🔗 View Project</a>
+  <!-- Card 1: Left Side (Behind) -->
+  <div style="position: absolute; width: 280px; transform: rotate(-30deg) translateX(-120px); z-index: 1; opacity: 0.6;">
+    <div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 18px; border-radius: 15px; box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3), 0 3px 10px rgba(0, 0, 0, 0.2);">
+      <img src="https://via.placeholder.com/400x250/4A90E2/FFFFFF?text=E-Commerce+Platform" alt="E-Commerce Platform" width="100%" style="border-radius: 10px; margin-bottom: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"/>
+      <h3 style="color: white; margin: 10px 0 6px 0; font-size: 18px;">E-Commerce Platform</h3>
+      <p style="color: white; margin: 5px 0; font-size: 13px;"><strong>Full-stack e-commerce solution</strong></p>
+      <p style="color: rgba(255,255,255,0.9); margin: 5px 0; font-size: 11px;">Built with React, Node.js, and PostgreSQL</p>
+      <a href="https://github.com/yourusername/project1" style="color: white; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 10px; padding: 6px 14px; background: rgba(255,255,255,0.25); border-radius: 6px; font-size: 12px;">🔗 View Project</a>
     </div>
   </div>
 
-  <!-- Card 2: Task Management App -->
-  <div class="fan-card fan-card2">
+  <!-- Card 2: Left Center -->
+  <div style="position: absolute; width: 300px; transform: rotate(-15deg) translateX(-70px); z-index: 2; opacity: 0.8;">
     <div align="center" style="background: linear-gradient(135deg, #50C878 0%, #4CAF50 100%); padding: 20px; border-radius: 15px; box-shadow: 0 12px 30px rgba(80, 200, 120, 0.35), 0 4px 12px rgba(0, 0, 0, 0.25);">
       <img src="https://via.placeholder.com/400x250/50C878/FFFFFF?text=Task+Management+App" alt="Task Management App" width="100%" style="border-radius: 10px; margin-bottom: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"/>
       <h3 style="color: white; margin: 12px 0 8px 0; font-size: 20px;">Task Management App</h3>
@@ -157,20 +91,20 @@
     </div>
   </div>
 
-  <!-- Card 3: Data Visualization Dashboard -->
-  <div class="fan-card fan-card3">
-    <div align="center" style="background: linear-gradient(135deg, #FF6B6B 0%, #EE5A6F 100%); padding: 20px; border-radius: 15px; box-shadow: 0 10px 25px rgba(255, 107, 107, 0.3), 0 3px 10px rgba(0, 0, 0, 0.2);">
-      <img src="https://via.placeholder.com/400x250/FF6B6B/FFFFFF?text=Data+Dashboard" alt="Data Dashboard" width="100%" style="border-radius: 10px; margin-bottom: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"/>
-      <h3 style="color: white; margin: 12px 0 8px 0; font-size: 20px;">Data Visualization Dashboard</h3>
-      <p style="color: white; margin: 6px 0; font-size: 14px;"><strong>Real-time analytics dashboard</strong></p>
-      <p style="color: rgba(255,255,255,0.9); margin: 6px 0; font-size: 12px;">Next.js, D3.js, and Python backend</p>
-      <a href="https://github.com/yourusername/project3" style="color: white; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 12px; padding: 8px 16px; background: rgba(255,255,255,0.25); border-radius: 6px;">🔗 View Project</a>
+  <!-- Card 3: Center (Front & Prominent) -->
+  <div style="position: absolute; width: 320px; transform: rotate(0deg); z-index: 5; opacity: 1;">
+    <div align="center" style="background: linear-gradient(135deg, #FF6B6B 0%, #EE5A6F 100%); padding: 25px; border-radius: 20px; box-shadow: 0 15px 40px rgba(255, 107, 107, 0.5), 0 5px 15px rgba(0, 0, 0, 0.3);">
+      <img src="https://via.placeholder.com/400x250/FF6B6B/FFFFFF?text=Data+Dashboard" alt="Data Dashboard" width="100%" style="border-radius: 12px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"/>
+      <h3 style="color: white; margin: 15px 0 10px 0; font-size: 24px;">Data Visualization Dashboard</h3>
+      <p style="color: white; margin: 8px 0; font-size: 16px;"><strong>Real-time analytics dashboard</strong></p>
+      <p style="color: rgba(255,255,255,0.9); margin: 8px 0; font-size: 14px;">Next.js, D3.js, and Python backend</p>
+      <a href="https://github.com/yourusername/project3" style="color: white; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px; padding: 10px 20px; background: rgba(255,255,255,0.25); border-radius: 8px;">🔗 View Project</a>
     </div>
   </div>
 
-  <!-- Card 4: Mobile App -->
-  <div class="fan-card fan-card4">
-    <div align="center" style="background: linear-gradient(135deg, #9B59B6 0%, #8E44AD 100%); padding: 20px; border-radius: 15px; box-shadow: 0 8px 20px rgba(155, 89, 182, 0.25), 0 2px 8px rgba(0, 0, 0, 0.15);">
+  <!-- Card 4: Right Side (Behind) -->
+  <div style="position: absolute; width: 300px; transform: rotate(15deg) translateX(70px); z-index: 2; opacity: 0.8;">
+    <div align="center" style="background: linear-gradient(135deg, #9B59B6 0%, #8E44AD 100%); padding: 20px; border-radius: 15px; box-shadow: 0 12px 30px rgba(155, 89, 182, 0.35), 0 4px 12px rgba(0, 0, 0, 0.25);">
       <img src="https://via.placeholder.com/400x250/9B59B6/FFFFFF?text=Mobile+App" alt="Mobile App" width="100%" style="border-radius: 10px; margin-bottom: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"/>
       <h3 style="color: white; margin: 12px 0 8px 0; font-size: 20px;">Mobile App</h3>
       <p style="color: white; margin: 6px 0; font-size: 14px;"><strong>Cross-platform mobile application</strong></p>
@@ -182,7 +116,7 @@
 </div>
 
 <div align="center" style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.1); border-radius: 10px;">
-  <p style="color: #333; font-size: 14px; margin: 0;">🃏 <strong>Fan-Style Card Carousel</strong> - Cards are fanned out in a semicircle and automatically rotate, bringing each project to the center</p>
+  <p style="color: #333; font-size: 14px; margin: 0;">🃏 <strong>Fan-Style Card Layout</strong> - Cards arranged in a beautiful semicircle fan pattern</p>
 </div>
 
 </td>
