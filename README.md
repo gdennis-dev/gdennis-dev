@@ -13,13 +13,6 @@
 </div>
 
 ---
-
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
 <div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 15px; box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3); margin-bottom: 20px;">
   <img src="images/AliveLand LiveStreaming Application.png" alt="AliveLand LiveStreaming Application" width="100%" style="border-radius: 10px; margin-bottom: 12px;"/>
   <h3 style="color: white; margin: 12px 0 8px 0; font-size: 20px;">AliveLand LiveStreaming</h3>
