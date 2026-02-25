@@ -6,7 +6,7 @@
   <p>システムエンジニアとして働いています</p>
 </div>
 
-## Skills
+## スキル
 
 <div>
   <img src="https://img.shields.io/badge/JavaScript/TypeScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript/TypeScript" />
