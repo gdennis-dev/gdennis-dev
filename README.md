@@ -2,8 +2,8 @@
   <div style="background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
 
 <div align="center">
-  <h1>Hi there, I'm Denis👋</h1>
-  <p>Passionate Developer | Problem Solver | Tech Enthusiast</p>
+  <h1>こんにちは👋</h1>
+  <p>システムエンジニアとして働いています</p>
 </div>
 
 ## Skills
